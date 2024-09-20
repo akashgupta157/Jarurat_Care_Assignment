@@ -22,4 +22,4 @@ To run this project locally:
 
 1. Clone this repository:
 
-   ```git clone https://github.com/your-username/healthcare-services-manager.git
+   ```git clone https://github.com/akashgupta157/Jarurat_Care_Assignment```
