@@ -37,8 +37,6 @@ const sampleServices = [
 ];
 export const ServiceProvider = ({ children }) => {
   const [services, setServices] = useState(sampleServices);
-  const [editing, setEditing] = useState(false);
-  const [currentService, setCurrentService] = useState(null);
   const addService = (newService) => {
     setServices([...services, newService]);
   };
@@ -53,13 +51,6 @@ export const ServiceProvider = ({ children }) => {
         service.id === updatedService.id ? updatedService : service
       )
     );
-    setEditing(false);
-    setCurrentService(null);
-  };
-
-  const editService = (service) => {
-    setEditing(true);
-    setCurrentService(service);
   };
 
   return (
@@ -68,10 +59,7 @@ export const ServiceProvider = ({ children }) => {
         services,
         addService,
         deleteService,
-        updateService,
-        editService,
-        editing,
-        currentService,
+        updateService
       }}
     >
       {children}
