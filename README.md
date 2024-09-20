@@ -22,4 +22,6 @@ To run this project locally:
 
 1. Clone this repository:
 
-   ```git clone https://github.com/akashgupta157/Jarurat_Care_Assignment```
+   ```bash
+   git clone https://github.com/akashgupta157/Jarurat_Care_Assignment
+    ```
