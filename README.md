@@ -23,5 +23,23 @@ To run this project locally:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/akashgupta157/Jarurat_Care_Assignment
+   git clone https://github.com/akashgupta157/Jarurat_Care_Assignment.git
     ```
+2. Navigate to the project directory:
+
+    ```bash
+   cd Jarurat_Care_Assignment
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+     ```bash
+     npm run dev
+    ```
+The app should now be running on http://localhost:5173.
+
+
+     
+    
